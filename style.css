@@ -102,9 +102,7 @@ nav ul li {
   transition: opacity ease-in;
 }
 
-/* Your existing styles */
-
-@media only screen and (max-width: 360px) {
+@media screen and (max-width: 700px) {
   body {
     background-color: antiquewhite;
   }
@@ -129,4 +127,24 @@ nav ul li {
   .timestamp {
     margin: 0 13px;
   }
+}
+
+.bottom {
+  flex-direction: column;
+  height: auto;
+}
+#myProgressBar {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.icons {
+  margin: 10px 0;
+}
+.songInfo {
+  position: static;
+  text-align: center;
+}
+.songInfo img {
+  display: block;
+  margin: 0 auto;
 }
