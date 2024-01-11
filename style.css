@@ -101,3 +101,32 @@ nav ul li {
   opacity: 0;
   transition: opacity ease-in;
 }
+
+/* Your existing styles */
+
+@media only screen and (max-width: 360px) {
+  body {
+    background-color: antiquewhite;
+  }
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+  .bottom {
+    height: 50px;
+  }
+  .songItemContainer {
+    margin-top: 54px;
+  }
+  .songItem {
+    width: 100%;
+  }
+  .songItem img {
+    width: 33px;
+    margin: 0 13px;
+    border-radius: 24px;
+  }
+  .timestamp {
+    margin: 0 13px;
+  }
+}
