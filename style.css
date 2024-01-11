@@ -102,16 +102,13 @@ nav ul li {
   transition: opacity ease-in;
 }
 
-@media screen and (max-width: 700px) {
-  body {
-    background-color: antiquewhite;
-  }
+/* Your existing styles */
+
+/* Media query for Redmi Note 9 Pro */
+@media only screen and (max-width: 1080px) {
   .container {
-    width: 100%;
+    width: 90%;
     padding: 15px;
-  }
-  .bottom {
-    height: 50px;
   }
   .songItemContainer {
     margin-top: 54px;
@@ -119,7 +116,7 @@ nav ul li {
   .songItem {
     width: 100%;
   }
-  .songItem img {
+  .songInfo img {
     width: 33px;
     margin: 0 13px;
     border-radius: 24px;
@@ -127,24 +124,29 @@ nav ul li {
   .timestamp {
     margin: 0 13px;
   }
-}
-
-.bottom {
-  flex-direction: column;
-  height: auto;
-}
-#myProgressBar {
-  width: 100%;
-  margin-bottom: 10px;
-}
-.icons {
-  margin: 10px 0;
-}
-.songInfo {
-  position: static;
-  text-align: center;
-}
-.songInfo img {
-  display: block;
-  margin: 0 auto;
+  .bottom {
+    height: auto;
+    flex-direction: column;
+  }
+  #myProgressBar {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .icons {
+    margin: 10px 0;
+    text-align: right;
+  }
+  .songInfo {
+    position: static;
+    text-align: center;
+  }
+  .songInfo img {
+    display: block;
+    margin: 0 auto;
+    font-size: 80px;
+  }
+  .bottom {
+    flex-direction: column;
+    height: 100px;
+  }
 }
