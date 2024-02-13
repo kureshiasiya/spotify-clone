@@ -58,6 +58,8 @@ nav ul li {
 }
 .icons {
   margin: 14px;
+  padding-right: 23px;
+  text-align: center;
 }
 .icons i {
   cursor: pointer;
@@ -92,8 +94,9 @@ nav ul li {
 .timestamp i {
   cursor: pointer;
 }
+
 .songInfo {
-  position: absolute;
+  position: relative;
   left: 0;
   font-family: "varela Round", sans-serif;
 }
@@ -134,7 +137,7 @@ nav ul li {
   }
   .icons {
     margin: 10px 0;
-    text-align: center;
+    text-align: right;
   }
   .songInfo {
     position: static;
